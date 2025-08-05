@@ -1,0 +1,6 @@
+This is a Brave Publishers verification file.
+
+Domain: nebula.com
+Token: brave-ledger-verification-token-placeholder
+
+Please visit https://publishers.basicattentiontoken.org/ to set up your actual verification token.

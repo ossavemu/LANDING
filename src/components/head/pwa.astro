@@ -1,0 +1,34 @@
+---
+import { seoConfig } from '../../lib/seo.ts';
+---
+
+<link rel="manifest" href="/manifest.json" />
+<link rel="sitemap" href="/sitemap.xml" />
+
+<meta name="theme-color" content="#6366f1" />
+<meta name="background-color" content="#ffffff" />
+<meta name="display" content="standalone" />
+<meta name="orientation" content="portrait-primary" />
+
+<meta property="og:type" content={seoConfig.type} />
+<meta property="og:title" content="Nebula Landing" />
+<meta property="og:description" content={seoConfig.description} />
+<meta property="og:url" content={seoConfig.baseURL} />
+<meta property="og:site_name" content={seoConfig.siteName} />
+<meta property="og:image" content={`${seoConfig.baseURL}${seoConfig.image.url}`} />
+<meta property="og:image:alt" content={seoConfig.image.alt} />
+<meta property="og:image:width" content={seoConfig.image.width.toString()} />
+<meta property="og:image:height" content={seoConfig.image.height.toString()} />
+
+<meta name="twitter:card" content={seoConfig.twitter.card} />
+<meta name="twitter:title" content="Nebula Landing" />
+<meta name="twitter:description" content={seoConfig.description} />
+<meta name="twitter:image" content={`${seoConfig.baseURL}${seoConfig.image.url}`} />
+<meta name="twitter:image:alt" content={seoConfig.image.alt} />
+
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta name="apple-mobile-web-app-title" content="Nebula" />
+
+<meta name="msapplication-TileColor" content="#6366f1" />
+<meta name="msapplication-config" content="/browserconfig.xml" />

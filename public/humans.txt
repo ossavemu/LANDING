@@ -1,0 +1,16 @@
+/* TEAM */
+Developer: Oscar
+Contact: oscar@nebula.com
+Location: Earth
+
+/* THANKS */
+Built with: Astro, TailwindCSS, TypeScript
+AI Assistant: Claude Code
+Fonts: DM Sans Variable
+
+/* SITE */
+Last update: 2025/01/08
+Language: English
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: Astro Components
+IDE: Claude Code

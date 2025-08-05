@@ -1,0 +1,9 @@
+{
+  "version": "1.0",
+  "features": [
+    {
+      "name": "debug",
+      "enabled": true
+    }
+  ]
+}
