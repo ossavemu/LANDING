@@ -1,0 +1,30 @@
+---
+import Logo from "./logo.astro";
+---
+
+<div class="flex justify-center items-center w-full h-full pt-20">
+  <div class="loader flex justify-center items-center">
+    <Logo />
+  </div>
+</div>
+
+<style>
+  .loader {
+    animation: rotatePulse 3s ease-in-out infinite;
+  }
+
+  @keyframes rotatePulse {
+    0% {
+      opacity: 1;
+      transform: rotate(0deg) scale(1);
+    }
+    50% {
+      opacity: 0.5;
+      transform: rotate(180deg) scale(0.8);
+    }
+    100% {
+      opacity: 1;
+      transform: rotate(360deg) scale(1);
+    }
+  }
+</style>

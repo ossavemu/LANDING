@@ -1,0 +1,9 @@
+---
+
+const props = Astro.props;
+
+---
+
+<img src="/favicon.svg" alt="Loading..." class:list={[
+    props.class || 'w-32 aspect-square'
+]} />
