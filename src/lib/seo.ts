@@ -26,20 +26,14 @@ export const manifest = {
   scope: "/",
   icons: [
     {
-      src: "/favicon.svg",
-      sizes: "any",
-      type: "image/svg+xml",
-      purpose: "any maskable"
-    },
-    {
-      src: "/favicon.svg",
+      src: "/icon.webp",
       sizes: "192x192",
-      type: "image/svg+xml"
+      type: "image/webp"
     },
     {
-      src: "/favicon.svg", 
+      src: "/icon.webp", 
       sizes: "512x512",
-      type: "image/svg+xml"
+      type: "image/webp"
     }
   ],
   categories: ["business", "productivity"],

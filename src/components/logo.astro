@@ -4,6 +4,7 @@ const props = Astro.props;
 
 ---
 
-<img src="/favicon.svg" alt="Loading..." class:list={[
-    props.class || 'w-32 aspect-square'
+<img src="/icon.webp" alt="Loading..." class:list={[
+    'object-contain aspect-square',
+    props.class || 'w-32'
 ]} />
